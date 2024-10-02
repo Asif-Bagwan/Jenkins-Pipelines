@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+    stages{
+        stage ('Build')
+        steps {
+            sh echo "this is build stage"
+        }
+        stage ('test')
+        steps {
+            sh echo "this is build stage"
+        }
+        stage ('Deploy')
+        steps {
+            sh echo "this is build stage"
+        }
+    }
+}
